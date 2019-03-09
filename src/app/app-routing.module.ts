@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CompComponent } from './comp/comp.component';
 
 const routes: Routes = [
-  {path: "", redirectTo: '/', pathMatch: 'full'},
+  {path: "", redirectTo: '/comp', pathMatch: 'full'},
   { path: "comp", component: CompComponent }
 ];
 
